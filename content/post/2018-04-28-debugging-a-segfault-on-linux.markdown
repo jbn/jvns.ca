@@ -44,7 +44,7 @@ valgrind -v your-program
 
 and this gave me a stack trace of what happened. Neat!
 
-But I wanted also wanted to do a more in-depth investigation and find out more than just what
+But I also wanted to do a more in-depth investigation and find out more than just what
 valgrind was telling me! So I wanted to get a core dump and explore it.
 
 ### How to get a core dump
