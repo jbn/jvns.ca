@@ -53,7 +53,7 @@ This is advice that I haven't really taken to heart -- technically I have 2 mail
 
 1. the RSS feed for this blog, which sends out new blog posts to a mailing list  for folks who don't
    use RSS (which 3000 of you get)
-2. https://wizardzines.com's list, for comics / new zine announcements (780 people subscribe to that! thank you!)
+2. [https://wizardzines.com](https://wizardzines.com)'s list, for comics / new zine announcements (780 people subscribe to that! thank you!)
 
 but definitely neither of them is a Machine For Making Sales and I've put in almost no efforts in
 that direction yet. 
