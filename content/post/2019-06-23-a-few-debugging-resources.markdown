@@ -214,7 +214,7 @@ ran into this a lot when learning Rust -- the Rust compiler would be like "you h
 error" and I'd like be "ugh ok Rust I get it I will go actually learn about how lifetimes work
 now!".
 
-And a lot of the time error messages mean somewhat things that are pretty far from the text of the
+And a lot of the time error messages are caused by a problem very different from the text of the
 message, like how "upstream connect error or disconnect/reset before headers" might mean "julia,
 your server crashed!". The skill of understanding what error messages mean is often not transferable
 when you switch to a new area (if I started writing a lot of React or something tomorrow, I would
