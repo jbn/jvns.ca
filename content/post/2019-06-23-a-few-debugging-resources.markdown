@@ -108,7 +108,7 @@ inconvenient to do those things, maybe because there are too many events). Some 
 * [adding sounds on mobile](https://twitter.com/cocoaphony/status/1142847665690030080): "In the
   mobile world, I live on this advice. Xcode can play a sound when you hit a breakpoint (and
   continue without stopping). I place them certain places in the code, and listen for buzzing Tink
-  to indicate tight loops or Morse/Pop pairs to catch unbalanced events"
+  to indicate tight loops or Morse/Pop pairs to catch unbalanced events" (also [this tweet](https://twitter.com/AnnieTheObscure/status/1142842421954244608))
 * there's a very cool talk about [using XCode to play sound for iOS debugging here](https://qnoid.com/2013/06/08/Sound-Debugging.html)
 * [adding LEDs](https://twitter.com/wombatnation/status/1142887843963867136): "When I did embedded
   dev ages ago on grids of transputers, we wired up an LED to an unused pin on each chip. It was
