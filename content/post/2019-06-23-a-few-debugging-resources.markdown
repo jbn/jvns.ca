@@ -155,6 +155,22 @@ error handling (returning an error instead of crashing) would have saved me a li
 because instead of having to go check the cause of the crash, I could have just read the error
 message and figured out what was going on right away.
 
+### error messages are better than silently failing
+
+To get closer to the goal of "every single time there's an error, the program reports
+to you exactly what happened in an easy to understand way" you also need to be disciplined about
+immediately returning an error message instead of silently writing incorrect data / passing a
+nonsense value to another function which will do WHO KNOWS WHAT with it and cause you a gigantic
+headache. This means adding code like this:
+
+```
+if UNEXPECTED_THING:
+    raise "oh no THING happened"
+```
+
+This isn't easy to get right (it's not always obvious where you should be raising errors!") but it
+really helps a lot.
+
 ### failure: print out a stack of errors, not just one error.
 
 Related to returning helpful errors that make it easy to debug: Rust has a really incredible error
