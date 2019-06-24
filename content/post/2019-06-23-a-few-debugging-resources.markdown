@@ -16,7 +16,7 @@ skills / describe the process of debugging.
 
 ### a couple of debugging resources
 
-First, I was hoping for more links to debugging books/guides, but here are the 2 recommendations I
+I was hoping for more links to debugging books/guides, but here are the 2 recommendations I
 got: 
 
 **"Debugging" by David Agans**: Several people recommended the book
