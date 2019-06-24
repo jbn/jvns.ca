@@ -6,12 +6,13 @@ categories: []
 ---
 
 I was debugging with a friend who's a relatively new programmer yesterday, and showed them a few
-debugging tips. Then I was thinking about it this morning, and [mentioned on Twitter](https://twitter.com/b0rk/status/1142825259546140673)
-that I'd never seen a really good guide to debugging your code.  (also, there are a ton of really
-great replies by Anne Ogborn to that tweet if you are interested in debugging tips)
+debugging tips. Then I was thinking about how to teach debugging this morning, and [mentioned on
+Twitter](https://twitter.com/b0rk/status/1142825259546140673) that I'd never seen a really good
+guide to debugging your code.  (there are a ton of really great replies by Anne Ogborn to that tweet
+if you are interested in debugging tips)
 
-Of course, my delightful Twitter followers gave me a lot of helpful answers and now I have a few
-ideas about how to teach debugging skills / describe the process of debugging.
+As usual, I got a lot of helpful answers and now I have a few ideas about how to teach debugging
+skills / describe the process of debugging.
 
 ### a couple of debugging resources
 
