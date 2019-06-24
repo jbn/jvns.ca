@@ -98,6 +98,7 @@ are some examples:
 * the code does the same thing when compiled in debug / release mode (or with -O2 and without, or...)
 * the compiler is not buggy (though this is last on purpose, the compiler is only very rarely to blame :))
 
+
 ### weird methods to get information
 
 There are a lot of normal ways to do experiments to check your assumptions / guesses about what the
@@ -167,6 +168,25 @@ I think other languages have tools like this but I'm not familiar with them (do 
 me!). In Go the idiom to do this seems to be to just concatenate your stack of errors together as a
 big string so you get "error: thing one: error: thing two : error: thing three" which works okay but
 is definitely a lot less structured than `failure`'s system).
+
+### understand what the error messages mean
+
+One sub debugging skill that I take for granted a lot of the time is understanding what error
+messages mean! I came across this nice graphic explaining [common Python errors and what they
+mean](https://pythonforbiologists.com/29-common-beginner-errors-on-one-page/), which breaks down
+things like `NameError`, `IOError`, etc. This is a hard thing because sometimes understanding a new
+error message might mean learning a new concept -- `NameError` can mean "Your code uses a variable
+outside the scope where it's defined", but to really understand that you need to understand what
+variable scope is! I ran into this a lot when learning Rust -- the Rust compiler would be like "you
+have a weird lifetime error" and I'd like be "ugh ok Rust I get it I will go actually learn about
+how lifetimes work now!".
+
+And a lot of the time error messages mean somewhat unrelated things, like how "upstream connect
+error or disconnect/reset before headers" means "julia, your server crashed!" and I think that
+understanding what specific error messages translate to is often not transferable when you switch to
+a new area (if I started writing a lot of React or something tomorrow, I would probably have no idea
+what any of the error messages meant!). So this definitely isn't just an issue for beginner
+programmers.
 
 ### that's all for now!
 
