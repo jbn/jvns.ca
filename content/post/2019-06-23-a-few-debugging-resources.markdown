@@ -129,7 +129,7 @@ inconvenient to do those things, maybe because there are too many events). Some 
   happening on your system into sounds. I spent 10 minutes trying to get it to compile and failed so
   far but it looks very fun and I want to try it!!
 
-I guess the point here is that information is the most important thing and you need to do whatever's
+The point here is that information is the most important thing and you need to do whatever's
 necessary to get information.
 
 ### write your code so it's easier to debug
