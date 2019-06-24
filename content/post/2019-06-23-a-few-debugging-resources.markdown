@@ -171,10 +171,17 @@ backend!). And I think it's also more useful than `connection failure: timeout c
 with a stack trace, because it summarizes at a high level the parts that went wrong instead of
 making you read all the lines in the stack trace (some of which might not be relevant!).
 
-I think other languages have tools like this but I'm not familiar with them (do you know them? tell
-me!). In Go the idiom to do this seems to be to just concatenate your stack of errors together as a
+tools like this in other languages:
+
+* Go: the idiom to do this seems to be to just concatenate your stack of errors together as a
 big string so you get "error: thing one: error: thing two : error: thing three" which works okay but
-is definitely a lot less structured than `failure`'s system).
+is definitely a lot less structured than `failure`'s system
+* Java: I hear you can give exceptions causes but haven't used that myself
+* Python: you can use `raise from` which sets the `__cause__` attribute on the exception and then
+  your exceptions will be separated by `The above exception was the direct cause of the following
+  exception:..`. I also haven't used this.
+
+If you know how to do this in other languages I'd be interested to hear!
 
 ### understand what the error messages mean
 
