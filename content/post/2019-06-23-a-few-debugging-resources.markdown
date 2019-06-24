@@ -188,19 +188,21 @@ If you know how to do this in other languages I'd be interested to hear!
 One sub debugging skill that I take for granted a lot of the time is understanding what error
 messages mean! I came across this nice graphic explaining [common Python errors and what they
 mean](https://pythonforbiologists.com/29-common-beginner-errors-on-one-page/), which breaks down
-things like `NameError`, `IOError`, etc. This is a hard thing because sometimes understanding a new
-error message might mean learning a new concept -- `NameError` can mean "Your code uses a variable
-outside the scope where it's defined", but to really understand that you need to understand what
-variable scope is! I ran into this a lot when learning Rust -- the Rust compiler would be like "you
-have a weird lifetime error" and I'd like be "ugh ok Rust I get it I will go actually learn about
-how lifetimes work now!".
+things like `NameError`, `IOError`, etc.
 
-And a lot of the time error messages mean somewhat unrelated things, like how "upstream connect
-error or disconnect/reset before headers" means "julia, your server crashed!" and I think that
-understanding what specific error messages translate to is often not transferable when you switch to
-a new area (if I started writing a lot of React or something tomorrow, I would probably have no idea
-what any of the error messages meant!). So this definitely isn't just an issue for beginner
-programmers.
+I think a reason interpreting error messages is hard is that understanding a new error message might
+mean learning a new concept -- `NameError` can mean "Your code uses a variable outside the scope
+where it's defined", but to really understand that you need to understand what variable scope is! I
+ran into this a lot when learning Rust -- the Rust compiler would be like "you have a weird lifetime
+error" and I'd like be "ugh ok Rust I get it I will go actually learn about how lifetimes work
+now!".
+
+And a lot of the time error messages mean somewhat things that are pretty far from the text of the
+message, like how "upstream connect error or disconnect/reset before headers" might mean "julia,
+your server crashed!". The skill of understanding what error messages mean is often not transferable
+when you switch to a new area (if I started writing a lot of React or something tomorrow, I would
+probably have no idea what any of the error messages meant!). So this definitely isn't just an issue
+for beginner programmers.
 
 ### that's all for now!
 
