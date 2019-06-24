@@ -55,6 +55,13 @@ A few suggested approaches:
   suite later if it makes sense
 * writing a script / finding a command line incantation that does it (like `curl MY_APP.local/whatever`)
 
+### accept that it's probably your code's fault
+
+Sometimes I see a problem and I'm like "oh, library X has a bug", "oh, it's DNS", "oh, SOME OTHER
+THING THAT IS NOT MY CODE is broken". And sometimes it's not my code! But in general between an
+established library and my code that I wrote last month, usually it's my code that I wrote last
+month that's the problem :). 
+
 ### start doing experiments
 
 @act_gardner gave a [nice, short explanation of what you have to do after you reproduce your
