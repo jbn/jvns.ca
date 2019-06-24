@@ -159,7 +159,9 @@ you return a chain of errors instead of just one error, so you can print out a s
 
 This is SO MUCH MORE useful than just `connection failure: timeout connecting to 1.2.3.4 port 1234`
 by itself because it tells you the significance of 1.2.3.4 (it's something to do with the logging
-backend!).
+backend!). And I think it's also more useful than `connection failure: timeout connecting to 1.2.3.4 port 1234`
+with a stack trace, because it summarizes at a high level the parts that went wrong instead of
+making you read all the lines in the stack trace (some of which might not be relevant!).
 
 I think other languages have tools like this but I'm not familiar with them (do you know them? tell
 me!). In Go the idiom to do this seems to be to just concatenate your stack of errors together as a
