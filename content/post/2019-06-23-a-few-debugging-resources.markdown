@@ -157,7 +157,7 @@ message and figured out what was going on right away.
 
 ### error messages are better than silently failing
 
-To get closer to the goal of "every single time there's an error, the program reports
+To get closer to the dream of "every single time there's an error, the program reports
 to you exactly what happened in an easy to understand way" you also need to be disciplined about
 immediately returning an error message instead of silently writing incorrect data / passing a
 nonsense value to another function which will do WHO KNOWS WHAT with it and cause you a gigantic
