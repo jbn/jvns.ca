@@ -177,9 +177,9 @@ tools like this in other languages:
 big string so you get "error: thing one: error: thing two : error: thing three" which works okay but
 is definitely a lot less structured than `failure`'s system
 * Java: I hear you can give exceptions causes but haven't used that myself
-* Python: you can use `raise from` which sets the `__cause__` attribute on the exception and then
+* Python 3: you can use `raise ... from` which sets the `__cause__` attribute on the exception and then
   your exceptions will be separated by `The above exception was the direct cause of the following
-  exception:..`. I also haven't used this.
+  exception:..`
 
 If you know how to do this in other languages I'd be interested to hear!
 
