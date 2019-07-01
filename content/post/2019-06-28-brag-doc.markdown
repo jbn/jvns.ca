@@ -186,7 +186,7 @@ everyone is supporting each other in helping them accomplish what they want.
 ### thanks
 
 Thanks to Karla Burnett who I worked with on spreading this idea at work, to Dave Vasilevsky for
-running brag doc writing sessions, to Will Larson who encouraged me to start one of these in the
+running brag doc writing sessions, to Will Larson who encouraged me to start one [of these](https://lethain.com/career-narratives/) in the
 first place, to my manager Jay Shirley for always being encouraging & showing me that this is a
 useful way to work with a manager, and to Allie, Dan, Laura, Julian, Kamal, Stanley, and Vaibhav for
 reading a draft of this.
