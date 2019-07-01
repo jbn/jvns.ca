@@ -69,7 +69,13 @@ listing everything". But my manager was really thankful for it -- I think his pe
 makes my job way easier, now I can look at the document when writing your perf review instead of
 trying to remember what happened".
 
-Giving them a document that explains your accomplishments will really help your manager advocate for you in discussions about your performance and come to any meetings they need to have prepared.
+Giving them a document that explains your accomplishments will really help your manager advocate for
+you in discussions about your performance and come to any meetings they need to have prepared.
+
+Brag documents also **really** help with manager transitions -- if you get a new manager 3 months
+before an important performance review that you want to do well on, giving them a brag document
+outlining your most important work & its impact will help them understand what you've been doing
+even though they may not have been aware of any of your work before.
 
 ### share it with your peer reviewers
 
@@ -145,17 +151,13 @@ Next, I want to talk about a couple of structures that we've used to help people
 
 ### the brag workshop: help people list their accomplishments
 
-
 The way this "brag document" practice started in the first place is that my coworker [Karla](https://karla.io/) and I wanted to help other women in engineering advocate for themselves more in the performance review process. The idea is that some people undersell their accomplishments more than they should, so we wanted to encourage those people to "brag" a little bit and write down what they did that was important.
 
-
 We did this by running a "brag workshop" just before performance review season. The format of the workshop is like this:
-
 
 **Part 1: write the document: 1-2 hours**. Everybody sits down with their laptop, starts looking
 through their pull requests, tickets they resolved, design docs, etc, and puts together a list of
 important things they did in the last 6 months.
-
 
 **Part 2: pair up and make the impact of your work clearer: 1 hour**. The goal of this part is to
 pair up, review each other's documents, and identify places where people haven't bragged "enough" --
@@ -164,7 +166,6 @@ it was, maybe they improved test performance but didn't say that they made the t
 and that it improved everyone's developer experience. It's easy to accidentally write "I shipped
 $feature" and miss the follow up ("... which caused $thing to happen"). Another person reading
 through your document can help you catch the places where you need to clarify the impact.
-
 
 ### biweekly brag document writing session
 
