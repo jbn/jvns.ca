@@ -27,9 +27,9 @@ _did_ I do in the last 6 months?". This is a kind of demoralizing feeling and it
 in reality, more in "I forgot what cool stuff I actually did".
 
 
-I invariably end up having to spend a bunch of time looking through my pull requests, launch emails,
-design documents, and more. I always end up finding small (and sometimes not-so-small) things that I
-completely forgot  I did, like:
+I invariably end up having to spend a bunch of time looking through my pull requests, tickets,
+launch emails, design documents, and more. I always end up finding small (and sometimes
+not-so-small) things that I completely forgot  I did, like:
 
 
 * mentored an intern 5 months ago
@@ -153,8 +153,8 @@ We did this by running a "brag workshop" just before performance review season. 
 
 
 **Part 1: write the document: 1-2 hours**. Everybody sits down with their laptop, starts looking
-through their pull requests, design docs, etc, and puts together a list of important things they did
-in the last 6 months.
+through their pull requests, tickets they resolved, design docs, etc, and puts together a list of
+important things they did in the last 6 months.
 
 
 **Part 2: pair up and make the impact of your work clearer: 1 hour**. The goal of this part is to
