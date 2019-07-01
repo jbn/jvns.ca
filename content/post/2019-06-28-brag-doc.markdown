@@ -203,6 +203,10 @@ Here's a template for a brag document! Usually I make one brag document per year
 for a year of work doesn't seem like too much to me, especially if you're including some
 graphs/charts / screenshots to show the effects of what you did.
 
+One thing I want to emphasize, for people who don't like to brag, is -- **you don't have to try to
+make your work sound better than it is**. Just make it sound **exactly as good as it is**! For
+example "was the primary contributor to X new feature that's now used by 60% of our customers and
+has gotten Y positive feedback".
 
 ### Goals for this year:
 
