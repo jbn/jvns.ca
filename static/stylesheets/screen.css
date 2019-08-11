@@ -1058,7 +1058,9 @@ nav ul li + li:before {
   /*content: '\2605';*/
   /*unfortunately the unicode star is inconsistently supported, so here's an svg one instead.
   Ideally, some sort of svg icon thing might be better?*/
-  content: url("star.svg");
+/* content: url(data:image/gif;base64,BASE64DATA) */
+ /* base64 content of star.svg */
+  content: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDEzLjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMTQ5NDgpICAtLT4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB3aWR0aD0iMTguODhweCIgaGVpZ2h0PSIxNy45NTVweCIgdmlld0JveD0iMCAwIDE4Ljg4IDE3Ljk1NSIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMTguODggMTcuOTU1IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHBvbHlnb24gZmlsbD0iI0ZGRkZGRiIgcG9pbnRzPSI5LjQ0LDAgMTEuNjY5LDYuODU4IDE4Ljg4LDYuODU4IDEzLjA0NiwxMS4wOTcgMTUuMjc0LDE3Ljk1NSA5LjQ0LDEzLjcxNyAzLjYwNiwxNy45NTUgCgk1LjgzNCwxMS4wOTggMCw2Ljg1OCA3LjIxMiw2Ljg1OCAiLz4KPC9zdmc+Cg==);
   padding: 0 0.5em 0 0.25em;
   fill: white;
   vertical-align: middle;
