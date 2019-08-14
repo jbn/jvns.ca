@@ -190,7 +190,7 @@ if you're worried about time spent in garbage collection, look at allocations!
   -alloc_objects    Display allocated object counts
 ```
 
-I was originally confused about this works -- the profiles have already be collected! How can I make
+I was originally confused about this works -- the profiles have already been collected! How can I make
 this choice after the fact? I think how the heap profiles work is -- allocations are recorded at
 some sample rate. Then every time one of those allocation is **freed**, that's also recorded. So you
 get a history of both allocations and frees for some sample of memory activity. Then when it comes
